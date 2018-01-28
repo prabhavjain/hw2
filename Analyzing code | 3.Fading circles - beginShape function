@@ -1,0 +1,18 @@
+
+//Cool shades of Aqua along with random sharp shapes
+
+background(255);
+colorMode(HSB);
+noStroke();
+
+while(true) {
+  background(0, 0, 255, 0.2);
+  fill(random(150, 200), 50, 100);
+  
+  beginShape();
+vertex(random(width), random(height));
+vertex(random(width), random(height));
+vertex(random(width), random(height));
+vertex(random(width), random(height));
+endShape(CLOSE)
+}
