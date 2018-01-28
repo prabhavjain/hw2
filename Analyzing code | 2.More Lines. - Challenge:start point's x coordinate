@@ -2,9 +2,9 @@ function setup() {
   createCanvas(340, 340);
 }
 
-
 function draw() {
   var c = random(width);
+  
   if (c < 170) {
   stroke(255, 204, 0);
   } else {
