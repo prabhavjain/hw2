@@ -1,0 +1,38 @@
+createCanvas(340, 340);
+  background(51);
+
+  rect(10, 10, 320, 320)
+  fill(250,250,250)
+
+  strokeWeight(4);
+  stroke(51);
+  
+  //yellow Rectangle
+  var y = color(255, 204, 0)
+  fill(y); 
+  rect(15, 20, 130, 100);
+  rect(15, 120, 30, 15);
+
+  //blue Rectangle
+  var b = color(0, 0, 255)
+  fill(b); 
+  rect( 110, 130 , 45, 60); 
+  rect(125, 230, 30, 70);  
+
+  //red Rectangle
+  var r = color(255, 0, 0)
+  fill(r); 
+  rect(220, 230, 70, 80); 
+  rect(22, 30, 130, 28); 
+  
+  //grey Rectangle
+  var g = color(250, 250, 250)
+  fill(g); 
+  rect(175, 25, 59, 125);
+  rect(40, 220, 120, 18); 
+  
+  //black Rectangle
+  var bl = color(0, 0, 0)
+  fill(bl); 
+  rect(21, 175, 110, 20); 
+  rect(263, 39, 15, 180);
