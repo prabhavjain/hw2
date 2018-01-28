@@ -1,0 +1,42 @@
+function setup() {
+  createCanvas(340, 340);
+  background(51);
+}
+
+
+function draw() {
+  strokeWeight(4);
+  stroke(51);
+  
+  //yellow Rectangle
+  var y = color(255, 204, 0)
+  fill(y); 
+  rect(20, 20, 60, 60)
+  rect(random(width), random(height), random(width), random(height)); 
+  
+  //red Rectangle
+  var r = color(255, 0, 0)
+  fill(r); 
+  rect(140, 140, 100, 100)
+  rect(random(width), random(height), random(width), random(height)); 
+  
+  //blue Rectangle
+  var b = color(0, 0, 255)
+  fill(b); 
+  rect(240, 240, 20, 20)
+  rect(random(width), random(height), random(width), random(height)); 
+  
+  //grey Rectangle
+  var g = color(211, 211, 211)
+  fill(g); 
+  rect(240, 240, 20, 20)
+  rect(random(width), random(height), random(width), random(height)); 
+  
+  //black Rectangle
+  var bl = color(0, 0, 0)
+  fill(bl); 
+  rect(240, 240, 20, 20)
+  rect(random(width), random(height), random(width), random(height)); 
+  
+  
+}
